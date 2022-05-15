@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Guillermo D.C NeaMercadoFSA@gmail.com" />
+    <meta name="description" content="Formulario con conexión a base de datos MySQL"/>
     <title>Base de Datos 1</title>
     <link rel="stylesheet" href="/estilos/index.css">
 </head>
@@ -21,7 +22,7 @@
             <p>Mensaje:</p>
             <input class="mensaje" type="text" name="mensaje" required>
             <input class="boton" type="reset" value="Borrar Datos">
-            <input class="boton" type="submit" value="Mandar Datos">       
+            <input class="boton" type="submit" value="Mandar Datos">
         </form>
     </div>
 </body>
