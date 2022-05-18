@@ -12,7 +12,7 @@ $email=$_POST['correo'];
 $mensaje=$_POST['mensaje'];
 
 echo "Los datos son los siguientes: <br>";
-echo "$nombre, $apellido, $email y $mensaje";
+echo "$nombre, $apellido, $correo y $mensaje";
 
 $conectar=datos(); //Ejeculas las conexiones con base de datos
 $sql="INSERT INTO datosweb (nombre, apellido, correo, mensaje)
