@@ -8,7 +8,7 @@ include_once('db.php');
 
 $nombre=$_POST['nombre'];
 $apellido=$_POST['apellido'];
-$email=$_POST['correo'];
+$correo=$_POST['correo'];
 $mensaje=$_POST['mensaje'];
 
 echo "Los datos son los siguientes: <br>";
